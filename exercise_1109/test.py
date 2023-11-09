@@ -20,3 +20,9 @@ def calculation(a, b):
 # unpack tuple
 add, sub = calculation(40, 10)
 print(add, sub)
+
+def show_employee(name,salary=80000):
+    print("Name:",name,"salary:",salary)
+show_employee("Ben",12000)
+show_employee("Jessa")
+show_employee("hu")
